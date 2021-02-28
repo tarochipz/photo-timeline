@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* STYLING */
+.timelineItem {
+	list-style-type: none;
+	position: relative;
+	width: 6px;
+	margin: 0 auto;
+	padding-top: 50px;
+	background: #fff;
+}
+.timelineItem::after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%) rotate(45deg);
+  border-radius: 10px;
+	width: 20px;
+	height: 20px;
+	z-index: 2;
+	background: #eee;
+}
+.timelineItem div {
+	position: relative;
+	bottom: 0;
+	width: 400px;
+	padding: 20px;
+	background: #fff;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	width: min-content;
+}
+.timelineItem div time {
+	position: absolute;
+	background: #ffca58;
+	padding: 10px;
+	top: -15px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.timelineItem div div {
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: min-content;
+}
+.timelineItem:nth-of-type(odd) > div {
+	left: 45px;
+}
+.timelineItem:nth-of-type(even) > div {
+	left: -765px;
+}
+/* ANIMATION */
+.timelineItem div {
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+}
+.timelineItem:nth-of-type(odd) div {
+	transform: translate3d(100px, -10px, 0) rotate(10deg);
+}
+.timelineItem:nth-of-type(even) div {
+	transform: translate3d(-100px, -10px, 0) rotate(10deg);
+}
+.timelineItem.in-view div {
+	transform: none;
+	visibility: visible;
+	opacity: 1;
+}
+/* @media screen and (max-width: 900px) {
+  .timelineItem div {
+    width: 250px;
+    flex-direction: column;
+ }
+  .timelineItem div div {
+    width: 80%;
+    margin: 10px;
+ }
+  .timelineItem:nth-of-type(even) > div {
+    left: -200px;
+ }
+}
+@media screen and (max-width: 600px) {
+  body {
+    background: #8bfff4;
+ }
+  .timelineItem {
+    margin-left: 20px;
+ }
+  .timelineItem div {
+    width: calc(100vw - 91px);
+ }
+  .timelineItem:nth-of-type(even) > div {
+    left: 45px;
+ }
+} */
