@@ -20,7 +20,7 @@
 	left: 50%;
 	bottom: 0;
 	transform: translateX(-50%) rotate(45deg);
-  border-radius: 10px;
+	border-radius: 10px;
 	width: 20px;
 	height: 20px;
 	z-index: 2;
@@ -36,6 +36,9 @@
 	display: flex;
 	align-items: center;
 	width: min-content;
+}
+.timelineItem div img {
+	width: 500px;
 }
 .timelineItem div time {
 	position: absolute;
@@ -61,7 +64,7 @@
 	left: 45px;
 }
 .timelineItem:nth-of-type(even) > div {
-	left: -765px;
+	left: -650px;
 }
 /* ANIMATION */
 .timelineItem div {
