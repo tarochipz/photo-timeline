@@ -92,7 +92,7 @@ export default function Timeline() {
 			<TimelineItem imgUrl={`${imgPath}candymuseum.JPG`} title={'Candy museum'} date={'9/14/2018'} />
 			<TimelineItem
 				imgUrl={`${imgPath}pointreyes.jpg`}
-				title={'Attempted to go to point reyes'}
+				title={'Attempted to go to point reyes before Sanjay moved to NYC'}
 				date={'9/23/2018'}
 			/>
 			<TimelineItem
@@ -120,6 +120,64 @@ export default function Timeline() {
 				date={'1/28/2019'}
 			/>
 			<TimelineItem imgUrl={`${imgPath}edc_2019.jpg`} title={'EDC 2019'} date={'5/17/2019'} />
+			<TimelineItem imgUrl={`${imgPath}bigsur.jpg`} title={'Big Sur'} date={'6/8/2019'} />
+			<TimelineItem imgUrl={`${imgPath}mammoth.jpg`} title={'Mammoth lakes'} date={'6/22/2019'} />
+			<TimelineItem
+				imgUrl={`${imgPath}liholiho.JPG`}
+				title={'SF buddies dinner @ liho liho yacht club before Anthony moves to NYC'}
+				date={'7/26/2019'}
+			/>
+			<TimelineItem
+				imgUrl={`${imgPath}halloween_2019.jpg`}
+				title={'Last halloween before covid T_T'}
+				date={'11/2/2019'}
+			/>
+			<TimelineItem imgUrl={`${imgPath}singapore_2019.jpg`} title={'Singapore'} date={'11/9/2019'} />
+			<TimelineItem imgUrl={`${imgPath}bobamuseum.jpg`} title={'Boba Museum'} date={'11/10/2019'} />
+			<TimelineItem
+				imgUrl={`${imgPath}gaa.jpg`}
+				title={'Best michelin meal in Thailand @ Gaa for bach bday'}
+				date={'11/15/2019'}
+			/>
+			<TimelineItem
+				imgUrl={`${imgPath}bangkok_2019.jpg`}
+				title={'Day trip & boat ride in bangkok after Bach disappeared'}
+				date={'11/18/2019'}
+			/>
+			<TimelineItem
+				imgUrl={`${imgPath}lebua.jpg`}
+				title={'Another fancy dinner in Bangkok'}
+				date={'11/19/2019'}
+			/>
+			<TimelineItem imgUrl={`${imgPath}holiday_2019.jpg`} title={'LR Holiday party'} date={'12/14/2019'} />
+			<TimelineItem
+				imgUrl={`${imgPath}toronto_2019.JPG`}
+				title={'Visiting Sanjay & his broken foot in Toronto'}
+				date={'12/29/2019'}
+			/>
+			<TimelineItem imgUrl={`${imgPath}moraga.JPG`} title={'Went to my favorite spot in SF'} date={'2/15/2020'} />
+			<TimelineItem imgUrl={`${imgPath}covid.JPG`} title={'Walking around empty SF'} date={'4/25/2020'} />
+			<TimelineItem imgUrl={`${imgPath}bike.jpg`} title={'First bike ride to GG park'} date={'5/3/2020'} />
+			<TimelineItem
+				imgUrl={`${imgPath}presidio.JPG`}
+				title={'Presidio before Michelle moved to Seattle'}
+				date={'7/7/2020'}
+			/>
+			<TimelineItem
+				imgUrl={`${imgPath}sausalito.JPG`}
+				title={'Sausalito before Bach went back to Vancouver'}
+				date={'7/19/2020'}
+			/>
+			<TimelineItem
+				imgUrl={`${imgPath}aug_2020.jpg`}
+				title={"Random hangout @ Sitan's place"}
+				date={'8/29/2020'}
+			/>
+			<TimelineItem imgUrl={`${imgPath}bonez.JPG`} title={'Bonez - first rave during covid'} date={'9/4/2020'} />
+			<TimelineItem imgUrl={`${imgPath}santabarb.JPG`} title={'Santa Barbara road trip'} date={'10/17/2020'} />
+      <TimelineItem imgUrl={`${imgPath}redrocks.JPG`} title={'red rocks canyon on the way to vegas'} date={'10/18/2020'} />
+      <TimelineItem imgUrl={`${imgPath}christmas_2020.JPG`} title={'christmas eve'} date={'12/24/2020'} />
+      <TimelineItem imgUrl={`${imgPath}nye_2020.JPG`} title={'new years eve'} date={'12/31/2020'} />
 		</ul>
 	);
 }
