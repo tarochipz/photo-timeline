@@ -66,10 +66,18 @@ export default function Timeline() {
 				date={'12/24/2016'}
 			/>
 			<TimelineItem
+				imgUrl={`${imgPath}sanbruno.jpg`}
+				title={'San Bruno Caltrain Station'}
+				caption={
+					"I moved to SF and crashed at your place in San Bruno for a few weeks. You kept finding my fake eyelashes on your shoes. You asked me to be your gf but I didn't respond because I'm autistic."
+				}
+				date={'2/24/2017'}
+			/>
+			<TimelineItem
 				imgUrl={`${imgPath}march_2017.jpg`}
 				title={'Dinner at Gitane'}
 				caption={
-					"I moved to SF. You asked me to be your gf but I didn't respond because I'm autistic. After a few weeks of being awkward we finally started dating. You made a nice dinner reservation at this french restaurant in an cute alley."
+					"After a few weeks I finally found my own place and moved to Lansing. We also finally started dating after I asked if you still wanted me to be your gf and you didn't respond, but then you pretended to forget something at my place and came back. Our friends had a group chat about this and were apparently really frustrated at how autistic we were. You made a nice dinner reservation at this french restaurant in an cute alley."
 				}
 				date={'3/18/2017'}
 			/>
@@ -82,12 +90,28 @@ export default function Timeline() {
 				date={'4/16/2017'}
 			/>
 			<TimelineItem
+				imgUrl={`${imgPath}anhoang.jpg`}
+				title={'Anh Hoang'}
+				caption={
+					'We biked to Sausalito for the first time and then went to Anh Hoang after and ordered so many of these beef rolls. This might have been the first time we went to Anh Hoang too. I will never get sick of eating these beef rolls.'
+				}
+				date={'5/14/2017'}
+			/>
+			<TimelineItem
 				imgUrl={`${imgPath}edc_2017.jpg`}
 				title={'First EDC'}
 				caption={
 					"Rolling at the first Eric Prydz set and seeing the crazy fireworks for the first time is one of my favorite memories of us. You were so happy and I couldn't stop looking at your face, we were being weird the whole time and scared all our friends. It was probably the first time I really enjoyed EDM music."
 				}
 				date={'6/19/2017'}
+			/>
+			<TimelineItem
+				imgUrl={`${imgPath}pie.jpg`}
+				title={'Pecan Cheesecake Pie'}
+				caption={
+					'The first time we made this Pecan Cheesecake Pie because you really wanted to make a pie after you saw Bill Burr do it.'
+				}
+				date={'7/8/2017'}
 			/>
 			<TimelineItem
 				imgUrl={`${imgPath}barcelona_2017.jpg`}
@@ -146,6 +170,20 @@ export default function Timeline() {
 				date={'9/9/2017'}
 			/>
 			<TimelineItem
+				imgUrl={`${imgPath}oct2017.PNG`}
+				title={'At a party'}
+				caption={
+					"I think we were at a party at Lisa's place here. We had so many fun nights going out in SF. You look rapey in this pic lmfao."
+				}
+				date={'10/8/2017'}
+			/>
+			<TimelineItem
+				imgUrl={`${imgPath}nov2017.jpg`}
+				title={'Sleepy Rav'}
+				caption={"I used to put my pusheens beside you before I go to work every morning I don't know why rofl"}
+				date={'11/7/2017'}
+			/>
+			<TimelineItem
 				imgUrl={`${imgPath}holidayparty_2017.jpg`}
 				title={'Medallia holiday party'}
 				caption={
@@ -170,12 +208,28 @@ export default function Timeline() {
 				date={'1/28/2018'}
 			/>
 			<TimelineItem
+				imgUrl={`${imgPath}philz.jpeg`}
+				title={'Philz'}
+				caption={
+					'We started going to Philz and other coffee shops on weekends to do work. This was at the Philz by Lansing.'
+				}
+				date={'2/11/2018'}
+			/>
+			<TimelineItem
 				imgUrl={`${imgPath}dinner_2018.jpeg`}
 				title={'Fancy steak dinner'}
 				caption={
 					'We decided to have a fancy steak dinner with SF buddies. I think there was a reason for this but I do not remember what it is.'
 				}
 				date={'3/28/2018'}
+			/>
+			<TimelineItem
+				imgUrl={`${imgPath}apr2018.jpg`}
+				title={'Fort Mason'}
+				caption={
+					"We walked around a lot this day. We had burmese food in the sunset area and then walked to Golden Gate park. Then we walked to Lyon street steps and down to the Palace of Fine arts, then to the Fort Mason / Chrissy Field area behind it. I was really happy because went out and walked around all day with me since you don't do that all the time."
+				}
+				date={'4/22/2018'}
 			/>
 			<TimelineItem
 				imgUrl={`${imgPath}vegas_2018.jpeg`}
@@ -234,7 +288,9 @@ export default function Timeline() {
 			<TimelineItem
 				imgUrl={`${imgPath}hkmountain_2018.jpg`}
 				title={'Lantau Island in Hong Long'}
-				caption={'Took a cable car up a big mountain at Lantau island. It was really pretty up there. We saw some wild goats and went inside a temple and ate vegetarian buddhist food.'}
+				caption={
+					'Took a cable car up a big mountain at Lantau island. It was really pretty up there. We saw some wild goats and went inside a temple and ate vegetarian buddhist food.'
+				}
 				date={'10/7/2018'}
 			/>
 			<TimelineItem
@@ -253,7 +309,12 @@ export default function Timeline() {
 				}
 				date={'10/18/2018'}
 			/>
-			<TimelineItem imgUrl={`${imgPath}xmas_2018.JPG`} title={'Xmas party @ lansing'} caption={'We had lots of fun parties at Lansing.'} date={'12/7/2018'} />
+			<TimelineItem
+				imgUrl={`${imgPath}xmas_2018.JPG`}
+				title={'Xmas party @ lansing'}
+				caption={'We had lots of fun parties at Lansing.'}
+				date={'12/7/2018'}
+			/>
 			<TimelineItem
 				imgUrl={`${imgPath}nye_2018.jpg`}
 				title={'NYE in toronto'}
@@ -278,6 +339,30 @@ export default function Timeline() {
 				}
 				date={'1/28/2019'}
 			/>
+      {/* <TimelineItem
+				imgUrl={`${imgPath}views_2019.JPG`}
+				title={'Tank Hill'}
+				caption={
+					""
+				}
+				date={'2//2019'}
+			/>
+      <TimelineItem
+				imgUrl={`${imgPath}views_2019.JPG`}
+				title={'Tank Hill'}
+				caption={
+					""
+				}
+				date={'3//2019'}
+			/>
+      <TimelineItem
+				imgUrl={`${imgPath}views_2019.JPG`}
+				title={'Tank Hill'}
+				caption={
+					""
+				}
+				date={'4//2019'}
+			/> */}
 			<TimelineItem
 				imgUrl={`${imgPath}edc_2019.jpg`}
 				title={'EDC 2019'}
@@ -289,13 +374,17 @@ export default function Timeline() {
 			<TimelineItem
 				imgUrl={`${imgPath}bigsur.jpg`}
 				title={'Big Sur'}
-				caption={'We went on so many nice hikes in SF. This was from a day trip to Big Sur with Pablo and Robyn.'}
+				caption={
+					'We went on so many nice hikes in SF. This was from a day trip to Big Sur with Pablo and Robyn.'
+				}
 				date={'6/8/2019'}
 			/>
 			<TimelineItem
 				imgUrl={`${imgPath}mammoth.jpg`}
 				title={'Mammoth lakes'}
-				caption={"Mammoth lakes trip with SF buddies. We saw a really cool salt lake, walked around a crater and went to a natural hot spring. I didn't get the memo about bringing a bathing suit."}
+				caption={
+					"Mammoth lakes trip with SF buddies. We saw a really cool salt lake, walked around a crater and went to a natural hot spring. I didn't get the memo about bringing a bathing suit."
+				}
 				date={'6/22/2019'}
 			/>
 			<TimelineItem
