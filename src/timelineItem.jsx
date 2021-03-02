@@ -7,7 +7,7 @@ export default function TimelineItem({ imgUrl, title, caption, date }) {
 			<div>
 				<time>{date}</time>
 				<div>
-					<h2>{title}</h2>
+					<h1>{title}</h1>
 					<p>{caption}</p>
 					<img src={imgUrl} />
 				</div>

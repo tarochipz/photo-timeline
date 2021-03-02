@@ -40,24 +40,29 @@
 .timelineItem div img {
 	width: 500px;
 }
+.timelineItem div h1 {
+	width: 500px;
+}
+.timelineItem div p {
+	padding: 10px 0 20px;
+	font-size: 12px;
+}
 .timelineItem div time {
 	position: absolute;
-	background: #ffca58;
+	background: #9a8194;
+	color: white;
+	font-size: 14px;
 	padding: 10px;
-	top: -15px;
+	top: -20px;
 	border-radius: 5px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	letter-spacing: 2px;
 	font-weight: bold;
 }
 .timelineItem div div {
-	height: 100px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 	height: min-content;
 }
 .timelineItem:nth-of-type(odd) > div {

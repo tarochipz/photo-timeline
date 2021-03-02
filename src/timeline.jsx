@@ -45,7 +45,7 @@ export default function Timeline() {
 			/>
 			<TimelineItem
 				imgUrl={`${imgPath}vegas_2016.jpg`}
-				title={'At White Castle in Vegas'}
+				title={'White Castle in Vegas'}
 				caption={
 					'I came to SF with two gay guys and we all went to Vegas. I told Marina I liked you before the trip and she was really confused. I was awkward the whole trip, I think we made Marina uncomfortable lel.'
 				}
