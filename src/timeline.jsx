@@ -109,7 +109,7 @@ export default function Timeline() {
 				imgUrl={`${imgPath}pie.jpg`}
 				title={'Pecan Cheesecake Pie'}
 				caption={
-					'The first time we made this Pecan Cheesecake Pie because you really wanted to make a pie after you saw Bill Burr do it.'
+					"The first time we made this Pecan Cheesecake Pie because you really wanted to make a pie after you saw Bill Burr do it. We made this again a few times, there was one time I didn't tell you we were missing an egg and it came out flat lol."
 				}
 				date={'7/8/2017'}
 			/>
@@ -339,30 +339,30 @@ export default function Timeline() {
 				}
 				date={'1/28/2019'}
 			/>
-      {/* <TimelineItem
-				imgUrl={`${imgPath}views_2019.JPG`}
-				title={'Tank Hill'}
+			<TimelineItem
+				imgUrl={`${imgPath}cny.jpg`}
+				title={'Chinese New Year'}
 				caption={
-					""
+					"Chinese New Year at Michelle and Anthony's place. We made our peacan cheesecake pie again and brought it. There was a lot of yummy food. We rolled our own dumplings and shrimp rolls. You used to suck at rolling shrimp rolls but now you're actually pretty good at it. We also made fortune cookies, I put a drawing of a penis in yours."
 				}
-				date={'2//2019'}
+				date={'2/9/2019'}
 			/>
-      <TimelineItem
-				imgUrl={`${imgPath}views_2019.JPG`}
-				title={'Tank Hill'}
+			<TimelineItem
+				imgUrl={`${imgPath}mourad.jpg`}
+				title={'Mourad'}
 				caption={
-					""
+					'You made a reservation at Mourad for our 2 year anniversary, I did not expect it and I was really happy. We had our own menus (but they spelled my name wrong lol). It was such a nice dinner, the duck basteeya was sooo good.'
 				}
-				date={'3//2019'}
+				date={'3/13/2019'}
 			/>
-      <TimelineItem
-				imgUrl={`${imgPath}views_2019.JPG`}
-				title={'Tank Hill'}
+			<TimelineItem
+				imgUrl={`${imgPath}denver.jpg`}
+				title={'Denver'}
 				caption={
-					""
+					'I travelled a lot for work this month, I think I went to LA, Denver, New York and Palm springs within the same month. This was me eating sushi and stealing your Netflix account in my hotel room. I was also trying to learn JavaScript and switch jobs around this time. You told me you actually miss me when I leave for work trips when I came back and I was probably too autistic to know what to say back but it made me really happy to know that.'
 				}
-				date={'4//2019'}
-			/> */}
+				date={'4/8/2019'}
+			/>
 			<TimelineItem
 				imgUrl={`${imgPath}edc_2019.jpg`}
 				title={'EDC 2019'}
@@ -392,6 +392,28 @@ export default function Timeline() {
 				title={'Liho Liho Yacht Club'}
 				caption={'SF buddies dinner at Liho Liho Yacht club before Anthony moved to NYC.'}
 				date={'7/26/2019'}
+			/>
+			<TimelineItem
+				imgUrl={`${imgPath}.cocktails.jpg`}
+				title={'Wilson & Wilson'}
+				caption={
+					'We went to a hidden bar inside bourbon & branch to take a cocktail making course. There was one tequila based drink with a hibiscus syrup that was so good.'
+				}
+				date={'8/1/2019'}
+			/>
+			<TimelineItem
+				imgUrl={`${imgPath}sept2019.jpg`}
+				title={'Chilling'}
+				caption={
+					"This was when Bach, Nima and Will were over and we all got way too high. They kept setting alarms on our Google home and we ordered pizza. You were DJing the whole time we were high and got really into it. I think it's cute how you dance to your own music at your desk all the time and get really into DJing. I'm conscious when I dance at parties and usually do it to show off because I care what others think ,but at this moment you were just enjoying yourself and not caring what others are thinking or doing and it was nice to see."
+				}
+				date={'9/27/2019'}
+			/>
+			<TimelineItem
+				imgUrl={`${imgPath}deadmau5.jpg`}
+				title={'Deadmau5'}
+				caption={'We went to San Jose to see Deadmau5.'}
+				date={'10/12/2019'}
 			/>
 			<TimelineItem
 				imgUrl={`${imgPath}halloween_2019.jpg`}
@@ -454,12 +476,26 @@ export default function Timeline() {
 				date={'12/29/2019'}
 			/>
 			<TimelineItem
+				imgUrl={`${imgPath}derps.jpg`}
+				title={'Derps'}
+				caption={'How much time do you think we spend being comfy hehe?'}
+				date={'1/25/2020'}
+			/>
+			<TimelineItem
 				imgUrl={`${imgPath}moraga.JPG`}
 				title={'Moraga Steps'}
 				caption={
 					'We went to my favorite spot in SF for day after valentines day. This was when I first got my camera. We went to a coffee shop after. I think this was the last time we went out normally before Covid.'
 				}
 				date={'2/15/2020'}
+			/>
+			<TimelineItem
+				imgUrl={`${imgPath}ribs.JPG`}
+				title={'Ribs'}
+				caption={
+					'We started working from home this week and things were shut down in SF. This is the start of my cooking adventures.'
+				}
+				date={'3/13/2020'}
 			/>
 			<TimelineItem
 				imgUrl={`${imgPath}covid.JPG`}
@@ -479,7 +515,15 @@ export default function Timeline() {
 				imgUrl={`${imgPath}presidio.JPG`}
 				title={'Presidio'}
 				caption={'We biked to Presidio to hang out with Michelle before she moved to Seattle'}
-				date={'7/7/2020'}
+				date={'6/7/2020'}
+			/>
+			<TimelineItem
+				imgUrl={`${imgPath}birthday.JPG`}
+				title={'Covid Birthday'}
+				caption={
+					"I made mini cheesecakes and we had a thing at Salesforce park for your Birthday. Though there was covid we actually did a lot this month. We biked to Xin's and picked plums from the tree in his backyard that I made jam with and used for these cakes. We also drove around with Shulin and Kaushal cause they got a car, we went hiking in Mount Tam with Bach, went to Sausalito ate Golden Boy pizza by Pier 39 and went up Bernal Heights park for the first time at night."
+				}
+				date={'7/11/2020'}
 			/>
 			<TimelineItem
 				imgUrl={`${imgPath}sausalito.JPG`}
@@ -490,9 +534,19 @@ export default function Timeline() {
 				date={'7/19/2020'}
 			/>
 			<TimelineItem
+				imgUrl={`${imgPath}marin.JPG`}
+				title={'Marin'}
+				caption={
+					"Marina drove us to go hiking with Greg in Marin. We didn't take any pics togethere here but I have a bunch with you and Greg lul. We went to get frozen yogurt at a fancy plaza afterwards. We did a coffee tasting at our place from Kaushal's friend the next day."
+				}
+				date={'8/8/2020'}
+			/>
+			<TimelineItem
 				imgUrl={`${imgPath}bonez.JPG`}
 				title={'Bonez'}
-				caption={'First rave during Covid with new friends.'}
+				caption={
+					'First rave during Covid with new friends. This was the weekend right before crazy smog and when the sky turned orange.'
+				}
 				date={'9/4/2020'}
 			/>
 			<TimelineItem
@@ -510,6 +564,14 @@ export default function Timeline() {
 					'Stopped by Red Rocks Canyon on road trip to Vegas. We were having sandwiches and you tried to climb up a rock with a sandwhich in one hand and slipped like a derp.'
 				}
 				date={'10/18/2020'}
+			/>
+			<TimelineItem
+				imgUrl={`${imgPath}unihunting.jpg`}
+				title={'Uni hunting'}
+				caption={
+					'You had the great idea of going uni hunting after one of our friends mentioned it. We were not prepared and bought all the wrong tools but luckily Stephen was there and gave us a spoon. We were too excited and ended up taking all the small unis, but we got enough to make really delicious uni pasta and steamed mussels.'
+				}
+				date={'11/14/2020'}
 			/>
 			<TimelineItem
 				imgUrl={`${imgPath}christmas_2020.JPG`}
