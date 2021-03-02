@@ -70,7 +70,7 @@
 	left: 45px;
 }
 .timelineItem:nth-of-type(even) > div {
-	left: -650px;
+	left: -580px;
 }
 /* ANIMATION */
 .timelineItem div {
