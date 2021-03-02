@@ -478,7 +478,7 @@ export default function Timeline() {
 			<TimelineItem
 				imgUrl={`${imgPath}derps.jpg`}
 				title={'Derps'}
-				caption={'How much time do you think we spend being comfy hehe?'}
+				caption={"How much time do you think we spend being comfy hehe? Also it is hard cropping our pics to fit into this layout I made because you're so much taller and your hair adds on more height -_-"}
 				date={'1/25/2020'}
 			/>
 			<TimelineItem
