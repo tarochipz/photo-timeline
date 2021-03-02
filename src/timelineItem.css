@@ -30,7 +30,7 @@
 	position: relative;
 	bottom: 0;
 	width: 380px;
-	padding: 20px;
+	padding: 10px;
 	background: #fff;
 	border-radius: 5px;
 	display: flex;
@@ -45,15 +45,16 @@
 }
 .timelineItem div p {
 	padding: 10px 0 20px;
-	font-size: 12px;
+  font-size: 12px;
 }
 .timelineItem div time {
 	position: absolute;
-	background: #9a8194;
-	color: white;
-	font-size: 14px;
+	background: #385e4d;
+  color: white;
+  font-size: 14px;
 	padding: 10px;
-	top: -20px;
+	top: -45px;
+  left: 1px;
 	border-radius: 5px;
 	letter-spacing: 2px;
 	font-weight: bold;

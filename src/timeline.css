@@ -3,5 +3,6 @@ body {
 	background: linear-gradient(170deg, #99bbad, #ebd8b7);
 	color: #3c3f64;
 	overflow-x: hidden;
+	padding-top: 20px;
 	padding-bottom: 50px;
 }

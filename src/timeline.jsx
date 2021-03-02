@@ -4,9 +4,7 @@ import './timeline.css';
 
 export default function Timeline() {
 	const items = document.getElementsByTagName('li');
-
 	const imgPath = 'https://raw.githubusercontent.com/tarochipz/photo-timeline/main/assets/images/';
-
 	const elementsInViewport = (el) => {
 		var rect = el.getBoundingClientRect();
 		return (
@@ -87,7 +85,7 @@ export default function Timeline() {
 				imgUrl={`${imgPath}edc_2017.jpg`}
 				title={'First EDC'}
 				caption={
-					'First time at EDC. You were so happy rolling at Eric Prydz. Rolling at the first Eric Prydz set and seeing the crazy fireworks for the first time is one of my favorite memories of us. It was probably the first time I enjoyed EDM music. We were being weird the whole time we were rolling and scared everyone.'
+					"Rolling at the first Eric Prydz set and seeing the crazy fireworks for the first time is one of my favorite memories of us. You were so happy and I couldn't stop looking at your face, we were being weird the whole time and scared all our friends. It was probably the first time I really enjoyed EDM music."
 				}
 				date={'6/19/2017'}
 			/>
@@ -111,7 +109,7 @@ export default function Timeline() {
 				imgUrl={`${imgPath}paris_2017.JPG`}
 				title={'Paris'}
 				caption={
-					'Saw all the cool things in Paris and we took a bunch of failed/really bad selfies with the Eiffel tower in the back. We went on a dinner cruise around the Eiffel tower and it was all sparkly at night.'
+					"Saw all the cool things in Paris, we spent a whole day at the Louvre and went to a really cute cafe called Kisune in a park inside the Palais Royale. We took a bunch of failed/really bad selfies with the Eiffel tower in the back. We went on a dinner cruise around the Eiffel tower and it was all sparkly at night. You took a really ugly picture of me during dinner and wouldn't delete it."
 				}
 				date={'8/7/2017'}
 			/>
@@ -127,7 +125,7 @@ export default function Timeline() {
 				imgUrl={`${imgPath}prague_2017.JPG`}
 				title={'Prague'}
 				caption={
-					'Ate too many commie potatoes in Prague. The castles and clubs were lit though. We went to a big club and then a random small club with strippers everywhere. We went to a bar that was on the list of top 50 bars in the world and some absinth bar we went back to two nights in a row and tried everything on the menu.'
+					'Our Airbnb cancelled on us when we got there but we figured it out and then ate too many commie potatoes. The castles and clubs were lit though. We went to a big club and then a random small club with strippers everywhere. We went to Hemingway which was on the list of top 50 bars in the world. But that absinthe bar we went back to two nights in a row was better, we tried almost everything on the menu.'
 				}
 				date={'8/13/2017'}
 			/>
@@ -142,7 +140,9 @@ export default function Timeline() {
 			<TimelineItem
 				imgUrl={`${imgPath}sfhunt_2017.jpg`}
 				title={'SF Hunt'}
-				caption={'We did this SF scavenger hunt thing with SF buddies and found a lot of cool things in SF.'}
+				caption={
+					'We did this SF scavenger hunt thing with SF buddies and found a lot of cool things in SF. We had no chance of winning because we were not prepared and everyone had bikes but I really liked exploring and walking around the entire city with you and our friends.'
+				}
 				date={'9/9/2017'}
 			/>
 			<TimelineItem
@@ -165,7 +165,7 @@ export default function Timeline() {
 				imgUrl={`${imgPath}tahoe_2017.jpeg`}
 				title={'Tahoe'}
 				caption={
-					"We went to Tahoe with SF buddies and derped around the city with Pablo and Sanjay while everyone else went skiing. There were too giant floofy dogs and a little corgi that jumped on Pablo's balls, Sanjay beat Jack in Poker, Bach broke his ACL because Julie told him to go over a big hill"
+					"We went to Tahoe with SF buddies and derped around the city with Pablo and Sanjay while everyone else went skiing. There were too giant floofy dogs and a little corgi that jumped on Pablo's balls, Sanjay beat Jack in Poker, Bach broke his ACL because Julie told him to go over a big hill."
 				}
 				date={'1/28/2018'}
 			/>
@@ -180,7 +180,9 @@ export default function Timeline() {
 			<TimelineItem
 				imgUrl={`${imgPath}vegas_2018.jpeg`}
 				title={'Kbbq in Vegas before EDC'}
-				caption={'We somehow convinced the rest of our friends to come to EDC.'}
+				caption={
+					'We somehow convinced the rest of our friends to come to EDC. I think we missed Kygo because we all took too long eating dinner and getting ready. We found out I can actually walk much faster than you if I really wanted to :D'
+				}
 				date={'5/18/2018'}
 			/>
 			<TimelineItem
@@ -193,7 +195,7 @@ export default function Timeline() {
 				imgUrl={`${imgPath}sandieo_2018.JPG`}
 				title={'San Diego'}
 				caption={
-					'Second trip to San Diego. Ate a lot of kebab shop, worked in a really nice coffee / flower shop and saw a lot of beaches and of coasts with water. We were lied to and the airbnb only had one room but we automatically got it. We hung out in the living room really late one night while you told everyone about Q and conspiracies.'
+					'Second trip to San Diego. Ate a lot of kebab shop, worked in a really nice coffee / flower shop and saw a lot of beaches and of coasts with water. The airbnb listing was very misleading and there was only one room, but we got it by default. We hung out in the living room really late one night while you told everyone about Q and conspiracies.'
 				}
 				date={'6/10/2018'}
 			/>
@@ -209,7 +211,7 @@ export default function Timeline() {
 				imgUrl={`${imgPath}candymuseum.JPG`}
 				title={'Candy museum'}
 				caption={
-					'I dragged you to the candy museum for IG pics but ended up being pretty fun. We tried to copy these emojis.'
+					'I dragged you to the candy museum for IG pics with Michelle and Kevin but it ended up being pretty fun. We tried to copy these emojis.'
 				}
 				date={'9/14/2018'}
 			/>
@@ -225,21 +227,21 @@ export default function Timeline() {
 				imgUrl={`${imgPath}hk_2018.JPG`}
 				title={'OZONE in Hong Kong'}
 				caption={
-					'We went to the tallest bar in the world in Hong Kong and met some cool people. The view in the bathroom was sickkk. Our airbnb was made for tiny people and you barely fit in the bed and bathroom xD'
+					"We went to the tallest bar in the world in Hong Kong and met Jesse's friends. The view in the bathroom was sickkk. Our airbnb was made for tiny people and you barely fit in the bed and bathroom. We took a tram and hiked up Victoria peak but there was too much smog to see clearly. I got rekt by the air pollution. We also went to this party area that was really lit. I'm glad we got to see Hong Kong before crazy shit started happening there."
 				}
 				date={'10/6/2018'}
 			/>
 			<TimelineItem
 				imgUrl={`${imgPath}hkmountain_2018.jpg`}
 				title={'Lantau Island in Hong Long'}
-				caption={'Took a cable car up a big mountain at Lantau island.'}
+				caption={'Took a cable car up a big mountain at Lantau island. It was really pretty up there. We saw some wild goats and went inside a temple and ate vegetarian buddhist food.'}
 				date={'10/7/2018'}
 			/>
 			<TimelineItem
 				imgUrl={`${imgPath}tokyo_2018.JPG`}
-				title={'tokyo'}
+				title={'Tokyo'}
 				caption={
-					'Ate all the delicious sushi in Japan. I think we were waiting for fluffy japanese pancakes here. This is a cute pic :D'
+					'Ate all the delicious sushi and went to a really good ramen bar with single seats in Tokyo. The best place was this standing sushi bar that we randomly walked into that served sushi on leaves. I asked for no wasabi and spicy mayo and the chef was really confused and offended. I think we were waiting for fluffy japanese pancakes here. This is a cute pic :D'
 				}
 				date={'10/13/2018'}
 			/>
@@ -247,11 +249,11 @@ export default function Timeline() {
 				imgUrl={`${imgPath}osaka_2018.jpg`}
 				title={'osaka'}
 				caption={
-					'This was at a big castle in Osaka. We a building with a bunch of cool small bars, ate a lot of takoyaki, ate really good wagyu beef and we went to a cringy sex show.'
+					'This was at a big castle in Osaka. We went to a building with a bunch of cool small bars, ate a lot of takoyaki, ate really good wagyu beef and we went to a cringy sex show.'
 				}
 				date={'10/18/2018'}
 			/>
-			<TimelineItem imgUrl={`${imgPath}xmas_2018.JPG`} title={'Xmas party @ lansing'} date={'12/7/2018'} />
+			<TimelineItem imgUrl={`${imgPath}xmas_2018.JPG`} title={'Xmas party @ lansing'} caption={'We had lots of fun parties at Lansing.'} date={'12/7/2018'} />
 			<TimelineItem
 				imgUrl={`${imgPath}nye_2018.jpg`}
 				title={'NYE in toronto'}
@@ -272,7 +274,7 @@ export default function Timeline() {
 				imgUrl={`${imgPath}views_2019.JPG`}
 				title={'Tank Hill'}
 				caption={
-					'Not sure what we were doing before this. But Kevin randomly found a cool hill to watch sunset at.'
+					"Not sure what we were doing before this. But Kevin randomly found a cool hill to watch sunset at. I don't think we ever came back here again, we should bike here some time."
 				}
 				date={'1/28/2019'}
 			/>
@@ -280,20 +282,20 @@ export default function Timeline() {
 				imgUrl={`${imgPath}edc_2019.jpg`}
 				title={'EDC 2019'}
 				caption={
-					"3rd EDC. We got so many compliments on our matching dragon ball Z shirts. This was probably the best EDC. Ironman was too strong and we kept buying all the bananas at the convenience store in the hotel. We also shot guns and ate at Gordon Ramsey's restaurant"
+					"3rd EDC! We got so many compliments on our matching dragon ball Z shirts. This was probably the best EDC. Ironman was too strong and we kept buying all the bananas at the convenience store in the hotel. We also shot guns and ate at Gordon Ramsey's restaurant"
 				}
 				date={'5/17/2019'}
 			/>
 			<TimelineItem
 				imgUrl={`${imgPath}bigsur.jpg`}
 				title={'Big Sur'}
-				caption={'Day trip to big sur with Pablo and Robyn'}
+				caption={'We went on so many nice hikes in SF. This was from a day trip to Big Sur with Pablo and Robyn.'}
 				date={'6/8/2019'}
 			/>
 			<TimelineItem
 				imgUrl={`${imgPath}mammoth.jpg`}
 				title={'Mammoth lakes'}
-				caption={"Mammoth lakes trip with SF buddies. I didn't get the memo about bringing a bathing suit xD"}
+				caption={"Mammoth lakes trip with SF buddies. We saw a really cool salt lake, walked around a crater and went to a natural hot spring. I didn't get the memo about bringing a bathing suit."}
 				date={'6/22/2019'}
 			/>
 			<TimelineItem
@@ -314,14 +316,14 @@ export default function Timeline() {
 				imgUrl={`${imgPath}singapore_2019.jpg`}
 				title={'Singapore'}
 				caption={
-					"Crazy skyline outside the art science museum in Singapore. You weren't too excited about Singapore at first but ended up liking it a lot because I was right :D The airport was next level, everything was so clean, we had the best hand pulled noodles in a food court."
+					"Crazy skyline outside the art science museum in Singapore. You weren't too excited about Singapore at first but ended up liking it a lot because I was right all along :D The airport was next level, we went to a cloud forest, had the best chicken sandwhich at McDonalds and had the best hand pulled noodles in a food court."
 				}
 				date={'11/9/2019'}
 			/>
 			<TimelineItem
 				imgUrl={`${imgPath}bobamuseum.jpg`}
 				title={'Boba Museum'}
-				caption={'Boba museum with me in Singapore. I know you secretly had fun xD'}
+				caption={'Boba museum in Singapore. I know you secretly had fun xD'}
 				date={'11/10/2019'}
 			/>
 			<TimelineItem
@@ -336,7 +338,7 @@ export default function Timeline() {
 				imgUrl={`${imgPath}bangkok_2019.JPG`}
 				title={'Ayutthaya'}
 				caption={
-					'Day trip to Ayutthaya and boat ride back to Bangkok. Bach disappeared for the day to hang out with Mari and her family.'
+					'Day trip to Ayutthaya and boat ride back to Bangkok. We bought and wore matching elephant pants. Bach disappeared for the day to hang out with Mari and her family.'
 				}
 				date={'11/18/2019'}
 			/>
@@ -416,7 +418,7 @@ export default function Timeline() {
 				imgUrl={`${imgPath}redrocks.jpg`}
 				title={'Red Rocks Canyon'}
 				caption={
-					'Stopped by Red Rocks Canyon on road trip to Vegas. We were having sandwhiches and you tried to climb up a rock with a sandwhich in one hand and slipped.'
+					'Stopped by Red Rocks Canyon on road trip to Vegas. We were having sandwiches and you tried to climb up a rock with a sandwhich in one hand and slipped like a derp.'
 				}
 				date={'10/18/2020'}
 			/>

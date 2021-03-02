@@ -4,7 +4,12 @@ import Timeline from './timeline.jsx';
 
 class App extends React.Component {
 	render() {
-		return <Timeline />;
+		return (
+			<>
+				<div>Happy 4 years</div>
+				<Timeline />
+			</>
+		);
 	}
 }
 
