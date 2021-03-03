@@ -7,7 +7,7 @@
 	width: 4px;
 	height: 25px;
 	border-radius: 10px;
-	background-color: black;
+	background-color: rgb(59, 59, 59);
 }
 .butterfly-body:before {
 	position: absolute;
