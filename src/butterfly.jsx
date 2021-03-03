@@ -17,12 +17,12 @@ export default function Butterfly() {
 	useEffect(() => {
 		window.addEventListener('scroll', scroll);
 		setInterval(() => {
-			let numberX = Math.floor(getRandomLocation(500, 1500));
-			let numberY = Math.floor(getRandomLocation(0, 500));
+			let numberX = Math.floor(getRandomLocation(100, 500));
+			let numberY = Math.floor(getRandomLocation(100, 800));
 
 			getButterflyElement().style.setProperty('--random-y', numberY + 'px');
 			getButterflyElement().style.setProperty('--random-x', numberX + 'px');
-		}, 3000);
+		}, 5000);
 	}, []);
 
 	return (
