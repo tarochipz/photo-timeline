@@ -394,7 +394,7 @@ export default function Timeline() {
 				date={'7/26/2019'}
 			/>
 			<TimelineItem
-				imgUrl={`${imgPath}.cocktails.jpg`}
+				imgUrl={`${imgPath}cocktails.jpg`}
 				title={'Wilson & Wilson'}
 				caption={
 					'We went to a hidden bar inside bourbon & branch to take a cocktail making course. There was one tequila based drink with a hibiscus syrup that was so good.'
