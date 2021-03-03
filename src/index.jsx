@@ -21,7 +21,8 @@ class App extends React.Component {
 				<div class="footer">
 					Yay you finally made it til the end.<br />
 					I know I'm awesome most of the time, but I can also be pretty annoying to deal with sometimes.<br />
-					I appreciate you being part of my life, and being there for me when it matters and when I'm being difficult.<br />
+					I appreciate having you in my life, you are one of the most important people to me <br/>
+          Thanks for being there when it matters and also when I'm being difficult.<br />
 					Can't wait for more adventures with you when Covid is over <br /><br />
 					<strong>
 						Happy 4 years mr.Wav, I love you <FontAwesomeIcon icon={faHeart} />
