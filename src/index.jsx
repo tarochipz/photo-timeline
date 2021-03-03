@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Timeline from './timeline.jsx';
+import Butterfly from './butterfly.jsx';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -11,6 +12,7 @@ class App extends React.Component {
 		return (
 			<>
 				<div class="pageHeader">
+					<Butterfly />
 					<FontAwesomeIcon icon={faHeart} />
 					<h1>The Adventures of Sylv & Rav</h1>
 					<FontAwesomeIcon icon={faHeart} />
