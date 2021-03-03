@@ -20,8 +20,8 @@ class App extends React.Component {
 				<Timeline />
 				<div class="footer">
 					Yay you finally made it til the end.<br />
-					I know I'm awesome most of the time, but I can also be pretty annoying to deal with.<br />
-					I appreciate you being part of my life the past 4 years and being there for me when it matters.<br />
+					I know I'm awesome most of the time, but I can also be pretty annoying to deal with sometimes.<br />
+					I appreciate you being part of my life, and being there for me when it matters and when I'm being difficult.<br />
 					Can't wait for more adventures with you when Covid is over <br /><br />
 					<strong>
 						Happy 4 years mr.Wav, I love you <FontAwesomeIcon icon={faHeart} />
